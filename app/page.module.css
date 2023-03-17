@@ -14,7 +14,6 @@
   justify-content: center;
   height: calc(100vh - 120px);
   padding: 0 20px;
-  color: #f8f9fa;
   background-color: #343a40;
 }
 
@@ -91,4 +90,22 @@
 .divider {
   padding: 15px;
   background-color: #f1f1f1;
+}
+
+.cardContainer {
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+width: 370px;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
 }
